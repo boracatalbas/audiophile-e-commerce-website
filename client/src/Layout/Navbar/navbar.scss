@@ -1,3 +1,25 @@
 .nav {
-  border: solid 1px red;
+  background-color: #191919;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw 0 5vw;
+  img {
+    height: 5vh;
+  }
+  .links {
+    color: white;
+    display: flex;
+    a {
+      font-family: "Instrument Sans Bold", sans-serif;
+      font-weight: 500;
+      margin: 0 3vw;
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .cart {
+    height: 4vh;
+  }
 }
